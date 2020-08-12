@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*border-style:solid;*/
+
+}
+html {
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+body {
+    /* background: url("/images/webCroppedCabin.jpg") no-repeat center center fixed;
+    /* background-size: cover; */
+    /*background-size: 100% auto;  */
+    margin: 0px 20px;
+}
+
+.background{
+    max-width: 100vw;
+    max-height:90vh;
+    /* max-height:100%;   */
+    /* position:fixed;
+    left:0px;
+    top:0px;
+    z-index: -1; */
+}
+
+.background-image{
+    width:100%;
+    height:50%; 
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:50px;
+    background-color: #113f0b;
+    color: white;
+    
+}
+
+.nav-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+#logo-wrapper {
+    max-width: 150px;
+    
+}
+
+#logo {
+    width:100%; 
+}
+
+.nav-items a{
+    text-decoration: none;
+    color: #27302c;
+}
+
+.fancy-location{
+    background-color: #113f0b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    flex-wrap: nowrap;
+    padding-top: 20px;
+    font-family: "Cairo";
+    font-size: 1.5em;
+}
+
+.fancy-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Vast Shadow";
+    font-size: 50px;
+    font-weight:500;
+    background-color: #113f0b;
+    color: white;
+    width:100%;
+    height: 200px;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+
+}
+
+.fancy-border{
+    background-color: #113f0b;
+    width:100%;
+    height:50px;
+}
+
+.aerial-photo{
+    max-width: 100%;
+}
+
+.aerial-photo img{
+    width:100%;
+}
+
+.home-text-wrapper{
+    margin: 50px 0px;
+}
+
+.content-container{
+    display: grid;
+    grid-template-columns:
+    repeat(auto-fit, minmax(277px, 1fr));
+    margin-top:5%;
+    justify-items: center;
+}
+
+.photo-link{
+    border: 4px solid #2b2020 ;
+    border-radius: 5%;
+    max-width: 90%;
+    height: 300px;
+    background-color: #113f0b;
+    margin-bottom: 50px;
+}
+
+.photo-link img{
+    width:300px;
+    border-radius: 5%;
+}
+
+.photo-link p{
+    padding-top: 10px;
+    text-align: center;
+    font-size:1.5em;
+    font-weight: 600;
+    color:white;
+}
+
+footer{
+    margin-top:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer img{
+    width:50px;
+}
