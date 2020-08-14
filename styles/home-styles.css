@@ -48,12 +48,12 @@ body {
     display:flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     
 }
 
 #logo-wrapper {
-    max-width: 150px;
+    max-width: 10vw;
     
 }
 
@@ -66,6 +66,10 @@ body {
     color: #27302c;
 }
 
+.nav-hamburger-wrapper{
+    display: none;
+}
+
 .fancy-location{
     background-color: #113f0b;
     display: flex;
@@ -75,7 +79,7 @@ body {
     flex-wrap: nowrap;
     padding-top: 20px;
     font-family: "Cairo";
-    font-size: 1.5em;
+    font-size: 2.5vw;
 }
 
 .fancy-name{
@@ -83,12 +87,12 @@ body {
     justify-content: center;
     align-items: center;
     font-family: "Vast Shadow";
-    font-size: 50px;
+    font-size: 4vw;
     font-weight:500;
     background-color: #113f0b;
     color: white;
-    width:100%;
-    height: 200px;
+     width:100%;
+    height: 50vh; 
     border-top: 4px solid white;
     border-bottom: 4px solid white;
 
@@ -109,7 +113,14 @@ body {
 }
 
 .home-text-wrapper{
-    margin: 50px 0px;
+    margin: 50px 10px;
+    grid-template-columns:
+    repeat(auto-fit, minmax(277px, 1fr));
+    margin: 5% 10%;
+}
+
+.home-text-wrapper p{
+    justify-self: center;
 }
 
 .content-container{
@@ -129,8 +140,10 @@ body {
     margin-bottom: 50px;
 }
 
+
+
 .photo-link img{
-    width:300px;
+    width:100%;
     border-radius: 5%;
 }
 
@@ -152,4 +165,31 @@ footer{
 
 footer img{
     width:50px;
+}
+
+/**************Media Query************/
+
+@media(max-width:500px){
+    .nav-items{
+        display: none;
+    }
+
+    .nav-container{
+        justify-content: flex-end;
+    }
+
+    #logo-wrapper{
+        margin-right: auto;
+    }
+
+    .nav-hamburger-wrapper{
+        display:block;
+    }
+
+    #nav-hamburger-img{
+        width:10vw;
+    /* color: #945f30 */
+    }
+    
+    
 }
