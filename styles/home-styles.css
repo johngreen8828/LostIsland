@@ -227,9 +227,13 @@ footer img{
     }
     
     .fancy-name{
-        font-size: 1.5em;
+        font-size: 1.0em;
         font-weight:500;
-        height:150px;
+        height:110px;
+    }
+
+    .fancy-location{
+        font-size: .8em;
     }
     
 }
