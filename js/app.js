@@ -5,13 +5,41 @@ function openDropdownForPhone() {
     }else {
         navSlider.style.width = "0px";
     }
-    
-
 }
    
 function closeDropdownForPhone() {
     document.getElementById("dropdown-js").style.width = "0";
 }
+
+function openModal(imgForModal, index){
+    index = index-1;
+    let modal = document.getElementById('lodge-modal');
+    let slides = document.getElementsByClassName("photo-link")
+    let img = document.getElementById('img');
+    let close = document.getElementsByClassName("close")[0];
+    let prev = document.getElementsByClassName("prev")[0];
+    let next = document.getElementsByClassName("next")[0];
+    modal.style.display = "block";
+    prev.style.display = "block";
+    next.style.display = "block";
+    img.src = imgForModal;
+    
+    close.onclick = function(){
+        modal.style.display = "none";
+        prev.style.display = "none";
+        next.style.display = "none";
+    }
+
+    next.onclick = function(){
+        currentSlide = slides[index];
+        nextSlide = slides[index + 1];
+        currentSlide.style.display = 'none';
+        nextSlide.style.display = 'block';
+        
+    }
+}
+
+
 
 (() => {
     requestAnimationFrame(() => {       
