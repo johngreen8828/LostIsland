@@ -48,6 +48,20 @@ body {
     width:30px;
 }
 
+#email-text{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#location-icon{
+    width:20px;
+}
+
+#phone-icon{
+    width:30px;
+}
+
 .nav-container{
     display:flex;
     justify-content: space-around;
