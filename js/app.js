@@ -64,6 +64,10 @@ function openModal(imgForModal, index){
     }
 }
 
+function openOurLocation() {
+    var win = window.open("https://www.google.com/maps/place/1850+45+Rd,+Linwood,+NE+68036/@41.4059,-97.0494417,13z/data=!4m5!3m4!1s0x87911f665d0ac86d:0xce8ad02f6f246492!8m2!3d41.3944465!4d-97.0322748");
+    win.focus();
+}
 
 
 (() => {

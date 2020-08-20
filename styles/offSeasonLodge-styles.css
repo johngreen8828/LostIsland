@@ -42,7 +42,10 @@ body {
     background-color: #113f0b;
     /* background-color: #2b3636; */
     color: white;
-    
+}
+
+#phone-icon{
+    width:30px;
 }
 
 .nav-container{
