@@ -33,9 +33,34 @@ function openModal(imgForModal, index){
     next.onclick = function(){
         currentSlide = slides[index];
         nextSlide = slides[index + 1];
-        currentSlide.style.display = 'none';
-        nextSlide.style.display = 'block';
-        
+        if(nextSlide === undefined){
+            nextSlide = slides[0];
+            index = 0;
+        }
+        img.src = "";
+        let imgSrc = nextSlide.childNodes[1].childNodes[0].nextSibling.src;
+        img.src = imgSrc;
+        console.log(img.src);
+        if(index < slides.length){
+            index++;
+            console.log("after  " + index + "  Length: "+ slides.length);
+        }              
+    }
+
+    prev.onclick = function(){
+        currentSlide = slides[index];
+        nextSlide = slides[index - 1];
+        if(nextSlide === undefined){
+            nextSlide = slides[slides.length - 1];
+            index = slides.length - 1;
+        }
+        img.src = "";
+        let imgSrc = nextSlide.childNodes[1].childNodes[0].nextSibling.src;
+        img.src = imgSrc;
+        console.log(img.src);
+        if(index < slides.length){
+            index--;
+        }          
     }
 }
 
