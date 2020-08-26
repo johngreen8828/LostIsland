@@ -35,6 +35,14 @@ body {
     color: white;
 }
 
+.hero{
+    max-width: 100vw;
+}
+
+.hero-img{
+    width:100%;
+}
+
 .header a{
     text-decoration: none;
     color:white;
@@ -87,6 +95,7 @@ body {
 }
 
 .fancy-location{
+    display:none;
     background-color: #113f0b;
     /* background-color: #2b3636; */
     display: flex;
@@ -124,6 +133,7 @@ body {
 }
 
 .fancy-name{
+    display:none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,6 +151,7 @@ body {
 }
 
 .fancy-border{
+    display:none;
     background-color: #113f0b;
     /* background-color: #2b3636; */
     width:100%;
@@ -153,6 +164,7 @@ body {
 }
 
 .aerial-photo{
+    display:none;
     max-width: 100%;
 }
 
