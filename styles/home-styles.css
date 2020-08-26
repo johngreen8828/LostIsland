@@ -35,6 +35,14 @@ body {
     color: white;
 }
 
+.hero-small{
+    display: none;
+}
+
+.hero-small-img{
+    display: none;
+}
+
 .hero{
     max-width: 100vw;
 }
@@ -270,6 +278,28 @@ footer img{
 
     .fancy-border{
         font-size: .8em;
+    }
+
+    .hero{
+        display: none;
+    }
+
+    .hero-img{
+        display: none;
+    }
+
+    .hero-small{
+        display: block;
+        max-width: 100vw;
+    }
+
+    .hero-small-img{
+        display: block;
+        width: 100%;
+    }
+
+    .header:first-child span{
+        display: none;
     }
     
 }
