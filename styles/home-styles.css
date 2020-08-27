@@ -171,24 +171,19 @@ body {
 
 }
 
-.aerial-photo{
-    display:none;
-    max-width: 100%;
-}
-
-.aerial-photo img{
-    width:100%;
-}
-
 .home-text-wrapper{
-    margin: 50px 10px;
+    /* margin: 50px 10px; */
     grid-template-columns:
     repeat(auto-fit, minmax(277px, 1fr));
-    margin: 5% 10%;
+    padding: 5%;
+    background-color: rgba(4, 46, 4, .1);
+    border-radius: 1%;
 }
 
 .home-text-wrapper p{
     justify-self: center;
+    line-height: 1.5em;
+    /* margin: 0% 0% 5% 10%; */
 }
 
 .content-container{

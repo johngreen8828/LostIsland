@@ -145,23 +145,19 @@ body {
     height:50px;
 }
 
-.aerial-photo{
-    max-width: 100%;
-}
-
-.aerial-photo img{
-    width:100%;
-}
-
 .lodge-text-wrapper{
-    margin: 50px 10px;
-    grid-template-columns:
-    repeat(auto-fit, minmax(277px, 1fr));
-    margin: 5% 10%;
+     /* margin: 50px 10px; */
+     grid-template-columns:
+     repeat(auto-fit, minmax(277px, 1fr));
+     padding: 5%;
+     background-color: rgba(4, 46, 4, .1);
+     border-radius: 1%;
 }
 
 .lodge-text-wrapper p{
     justify-self: center;
+    line-height: 1.5em;
+    /* margin: 0% 0% 5% 10%; */
 }
 
 .content-container-row1{

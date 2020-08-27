@@ -45,6 +45,14 @@ body {
     color: white; 
 }
 
+.hero-small{
+    display: none;
+}
+
+.hero-small-img{
+    display: none;
+}
+
 .hero{
     max-width: 100vw;
 }
@@ -92,7 +100,7 @@ body {
 }
 
 #logo-wrapper {
-    max-width: 300px;
+    max-width: 200px;
     
 }
 
@@ -318,6 +326,37 @@ footer img{
 
     .fancy-location{
         font-size: .8em;
+    }
+
+    .hero{
+        display: none;
+    }
+
+    .hero-img{
+        display: none;
+    }
+
+    .hero-small{
+        display: block;
+        max-width: 100vw;
+    }
+
+    .hero-small-img{
+        display: block;
+        width: 100%;
+    }
+
+    .header:first-child span{
+        display: none;
+    }
+
+    #logo-wrapper {
+        max-width: 100px;
+        
+    }
+    
+    #logo {
+        width:100%; 
     }
 
     .prev, .next{
