@@ -164,14 +164,17 @@ body {
 }
 
 .lodge-text-wrapper{
-    margin: 50px 10px;
+    margin: 50px 10px; 
     grid-template-columns:
     repeat(auto-fit, minmax(277px, 1fr));
-    margin: 5% 10%;
+    padding: 5%;
+    background-color: rgba(4, 46, 4, .1);
+    border-radius: 1%;
 }
 
 .lodge-text-wrapper p{
     justify-self: center;
+    line-height: 1.5em;
 }
 
 .content-container-row1{
@@ -328,11 +331,11 @@ footer img{
         font-size: .8em;
     }
 
-    .hero{
+    /* .hero{
         display: none;
-    }
+    } */
 
-    .hero-img{
+    /* .hero-img{
         display: none;
     }
 
@@ -344,7 +347,7 @@ footer img{
     .hero-small-img{
         display: block;
         width: 100%;
-    }
+    } */
 
     .header:first-child span{
         display: none;
