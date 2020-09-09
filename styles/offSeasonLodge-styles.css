@@ -282,7 +282,7 @@ footer img{
 
 /**************Media Query************/
 
-@media(max-width:500px){
+@media(max-width:850px){
     .nav-items{
         display: none;
     }
