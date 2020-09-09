@@ -276,7 +276,7 @@ footer img{
         font-size: .8em;
     }
 
-    /* .hero{
+    .hero{
         display: none;
     }
 
@@ -292,7 +292,7 @@ footer img{
     .hero-small-img{
         display: block;
         width: 100%;
-    } */
+    }
 
     .header:first-child span{
         display: none;

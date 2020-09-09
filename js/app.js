@@ -8,7 +8,7 @@ function openDropdownForPhone() {
 }
    
 function closeDropdownForPhone() {
-    document.getElementById("dropdown-js").style.width = "0";
+    document.getElementById("small-nav").style.width = "0";
 }
 
 function openModal(imgForModal, index){
@@ -74,7 +74,10 @@ function openOurLocation() {
     requestAnimationFrame(() => {       
         let navContainer = document.getElementById("nav-container");
         let dropDownElement = document.createElement("div");
-            dropDownElement.style.height = "75%";
+        let smallMQ = window.matchMedia("(max-width: 500px)");
+        let medMQ = window.matchMedia("(min-width: 501px)");
+        if (smallMQ.matches){dropDownElement.style.height = "470px";}
+        if (medMQ.matches){dropDownElement.style.height = "770px";}   
             dropDownElement.style.display = "block"
             dropDownElement.style.position = "absolute";
             dropDownElement.style.zIndex = 1;
@@ -89,13 +92,24 @@ function openOurLocation() {
             dropDownElement.style.overflow ="hidden";
             dropDownElement.id = "small-nav";
             navContainer.appendChild(dropDownElement);
+            let closeIcon = dropDownElement.appendChild(document.createElement('span'));
+            closeIcon.innerHTML = "X";
+            closeIcon.style.display = "block";
+            closeIcon.style.fontSize = "2em";
+            closeIcon.style.fontWeight = "bold";
+            closeIcon.style.textAlign = "right";
+            closeIcon.style.paddingRight = "30px";
+            closeIcon.style.paddingTop = "20px";
+            closeIcon.onclick = closeDropdownForPhone;
             let homeAnchor = dropDownElement.appendChild(document.createElement('a'));
                 homeAnchor.innerHTML = "Home";
                 homeAnchor.href = "../index.html";
                 homeAnchor.style.display = "block";
                 homeAnchor.style.color = "Black";
                 homeAnchor.style.borderBottom = "1px solid black";
-                homeAnchor.style.padding = "8%"; 
+                homeAnchor.style.paddingTop = "4%"; 
+                homeAnchor.style.paddingLeft = "8%";
+                homeAnchor.style.paddingBottom = "8%";
                 homeAnchor.style.fontSize = "20px";
                 homeAnchor.style.textDecoration = "none";
             let huntingAnchor = dropDownElement.appendChild(document.createElement('a'));
