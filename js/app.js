@@ -74,10 +74,10 @@ function openOurLocation() {
     requestAnimationFrame(() => {       
         let navContainer = document.getElementById("nav-container");
         let dropDownElement = document.createElement("div");
-        let smallMQ = window.matchMedia("(max-width: 500px)");
+        let smallMQ = window.matchMedia("(max-width: 400px)");
         let medMQ = window.matchMedia("(min-width: 501px)");
-        if (smallMQ.matches){dropDownElement.style.height = "470px";}
-        if (medMQ.matches){dropDownElement.style.height = "770px";}   
+        if (smallMQ.matches){dropDownElement.style.height = "100%";}
+        if (medMQ.matches){dropDownElement.style.height = "800px";}   
             dropDownElement.style.display = "block"
             dropDownElement.style.position = "absolute";
             dropDownElement.style.zIndex = 1;
