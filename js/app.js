@@ -101,6 +101,7 @@ function openOurLocation() {
             closeIcon.style.paddingRight = "30px";
             closeIcon.style.paddingTop = "20px";
             closeIcon.onclick = closeDropdownForPhone;
+            closeIcon.addEventListener("mouseover", function(){this.style.cursor="pointer"});
             let homeAnchor = dropDownElement.appendChild(document.createElement('a'));
                 homeAnchor.innerHTML = "Home";
                 homeAnchor.href = "../index.html";

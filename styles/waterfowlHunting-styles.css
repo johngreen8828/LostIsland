@@ -100,7 +100,7 @@ body {
 }
 
 #logo-wrapper {
-    max-width: 200px;
+    max-width: 10vw;
     
 }
 
@@ -155,13 +155,7 @@ body {
     
 }
 
-.aerial-photo{
-    max-width: 100%;
-}
 
-.aerial-photo img{
-    width:100%;
-}
 
 .lodge-text-wrapper{
     margin: 50px 10px; 
@@ -331,11 +325,11 @@ footer img{
         font-size: .8em;
     }
 
-    /* .hero{
+    .hero{
         display: none;
-    } */
+    } 
 
-    /* .hero-img{
+    .hero-img{
         display: none;
     }
 
@@ -347,20 +341,20 @@ footer img{
     .hero-small-img{
         display: block;
         width: 100%;
-    } */
+    }
 
     .header:first-child span{
         display: none;
     }
 
-    #logo-wrapper {
+    /* #logo-wrapper {
         max-width: 100px;
         
     }
     
     #logo {
         width:100%; 
-    }
+    } */
 
     .prev, .next{
     
@@ -375,4 +369,4 @@ footer img{
         border-radius:0 3px 3px 0;
     }
     
-}
+} 
