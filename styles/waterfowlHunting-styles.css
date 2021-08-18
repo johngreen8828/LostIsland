@@ -181,6 +181,7 @@ body {
     background-color: rgb(32, 41, 56);
     margin-bottom: 50px;
     justify-self: center;
+    box-shadow: 2px 4px 4px 2px rgba(32, 41, 56, .4)
 }
 
 .photo-link img{
@@ -217,7 +218,7 @@ body {
     display: none;
     position: fixed;
     z-index: 1;
-    padding-top: 100px;
+    padding-top: 50px;
     left: 0;
     top: 0;
     width: 100%;
@@ -240,7 +241,7 @@ body {
     position:absolute;
     width:auto;
     padding:16px;
-    margin-top: 175px;
+    margin-top: 20%;
     color:white;
     font-weight:bold;
     font-size:50px;
