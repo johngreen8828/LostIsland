@@ -69,6 +69,10 @@ function openOurLocation() {
     win.focus();
 }
 
+function openInNewWindow(partnerURL){
+    var win = window.open(partnerURL);
+}
+
 
 (() => {
     requestAnimationFrame(() => {       

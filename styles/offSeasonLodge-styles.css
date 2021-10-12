@@ -33,6 +33,13 @@ body {
     height:50%; 
 }
 
+h1{
+    color: rgb(32, 41, 56);
+    font-size: x-large;
+    margin-top: 20px;
+    text-align: center;
+}
+
 .header{
     display: flex;
     justify-content: space-around;
@@ -117,7 +124,7 @@ body {
 }
 
 .lodge-text-wrapper{
-     margin: 50px 10px; 
+     margin: 20px 10px; 
      grid-template-columns:
      repeat(auto-fit, minmax(277px, 1fr));
      padding: 5%;
@@ -265,6 +272,13 @@ footer img{
 
     #logo-wrapper{
         margin-right: auto;
+    }
+
+    h1{
+        color: rgb(32, 41, 56);
+        font-size: medium;
+        margin-top: 20px;
+        text-align: center;
     }
 
     .nav-hamburger-wrapper{
