@@ -1,1 +1,1 @@
-/pages/waterfowlhunting /pages/WaterfowlHunting.html 200
+/pages/WaterfowlHunting.html /pages/waterfowlhunting 200
