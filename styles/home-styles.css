@@ -42,6 +42,13 @@ h1{
     color: white;
 }
 
+.sticky{
+    background: white;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
 .hero-small{
     display: none;
 }

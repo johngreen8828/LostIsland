@@ -109,6 +109,13 @@ h2{
     
 }
 
+.sticky{
+    background: white;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
 #logo-wrapper {
     max-width: 10vw;
     

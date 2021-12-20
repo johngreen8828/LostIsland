@@ -100,6 +100,13 @@ h2{
     width:30px;
 }
 
+.sticky{
+    background: white;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
 .nav-container{
     display:flex;
     justify-content: space-around;
@@ -316,6 +323,7 @@ footer img{
         margin-top: 20px;
         text-align: center;
     }
+
 
     .nav-hamburger-wrapper{
         display:block;

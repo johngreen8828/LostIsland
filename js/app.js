@@ -118,7 +118,7 @@ function openInNewWindow(partnerURL){
                 homeAnchor.style.fontSize = "20px";
                 homeAnchor.style.textDecoration = "none";
             let huntingAnchor = dropDownElement.appendChild(document.createElement('a'));
-                huntingAnchor.innerHTML = "Waterfowl Hunting";
+                huntingAnchor.innerHTML = "The Hunt";
                 huntingAnchor.href = "../pages/WaterfowlHunting.html";
                 huntingAnchor.style.display = "block";
                 huntingAnchor.style.color = "Black";

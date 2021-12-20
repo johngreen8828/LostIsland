@@ -73,6 +73,12 @@ h1{
     font-size: 1em;
 }
 
+.sticky{
+    background: white;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
 
 #phone-icon{
     width:30px;

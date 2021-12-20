@@ -162,6 +162,20 @@ h2{
     
 }
 
+.sticky{
+    background: white;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+.line-item{
+    margin-left: 20px;
+}
+
+.line-item-num{
+    margin-left: 20px;
+    list-style-type: number;
+}
 
 
 .lodge-text-wrapper{
